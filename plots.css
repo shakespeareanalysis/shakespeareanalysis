@@ -1,0 +1,41 @@
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor: pointer;
+  fill: #cccccc;
+}
+
+.link {
+  stroke: #888;
+  stroke-opacity: .9;
+}
+
+.circlenode {
+	cursor: pointer;
+}
+
+.chart g:nth-child(8n+1) rect {
+	fill: #1abc9c;
+} 
+.chart g:nth-child(8n+2) rect {
+	fill: #2ecc71;
+} 
+.chart g:nth-child(8n+3) rect {
+	fill: #3498db;
+} 
+.chart g:nth-child(8n+4) rect {
+	fill: #9b59b6;
+} 
+.chart g:nth-child(8n+5) rect {
+	fill: #34495e;
+} 
+.chart g:nth-child(8n+6) rect {
+	fill: #f1c40f;
+} 
+.chart g:nth-child(8n+7) rect {
+	fill: #e67e22;
+} 
+.chart g:nth-child(8n+8) rect {
+	fill: #e74c3c;
+} 
+
